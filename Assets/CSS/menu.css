@@ -1,0 +1,122 @@
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(90deg, #484848 0%, rgba(151, 151, 151, 0) 100%);
+}
+
+.hero p,
+.hero h1 {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.menus {
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.menus .menus-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.menus .menus-item {
+    /* width: 300px;
+    padding: 25px; */
+    border-radius: 50px;
+    text-align: center;
+}
+
+.menus .menus-item img {
+    width: 218px;
+    height: 218px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.menus .menus-item h3 {
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'marcellus';
+    color: #484848;
+}
+
+.menus .menus-item td {
+    padding: 0 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Mulish';
+    color: #484848;
+}
+
+.highlight-menu {
+    position: relative;
+    padding: 50px 0;
+}
+
+.highlight-menu h2 {
+    font-size: 40px;
+    font-family: 'Marcellus';
+    margin-bottom: 50px;
+    color: #991B28;
+    text-align: left;
+}
+
+.highlight-menu .highlight-menu-content {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.highlight-menu .highlight-menu-content p {
+    font-family: 'Mulish';
+    font-size: 21px;
+    margin-bottom: 100px;
+}
+
+.highlight-menu .highlight {
+    color: #991B28;
+    font-family: 'Marcellus';
+    font-size: 24px;
+    display: block;
+    margin-top: 10px;
+}
+
+.highlight-menu .pattern-japan {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 125%;
+    z-index: -1;
+}
+
+.highlight-menu-2 {
+    margin: 100px 0;
+    padding-top: 100px;
+}
+
+.highlight-menu-2 .highlight-menu-content img {
+    height: 500px;
+}
+
+.highlight-menu-2 .highlight-menu-content {
+    flex-direction: row-reverse;
+    padding: 0 0 0 50px;
+}
+
+.highlight-menu-2 .highlight-menu-content * {
+    color: white;
+}

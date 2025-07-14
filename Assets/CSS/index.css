@@ -116,9 +116,10 @@
 
 .about .pattern-japan {
     position: absolute;
-    top: -35px;
-    left: -5%;
-    width: 120%;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120%;
     z-index: -1;
 }
 
@@ -171,10 +172,12 @@
 .advantage .pattern-japan {
     position: absolute;
     top: -56px;
-    left: -5%;
-    width: calc(120% - 15px);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 145%;
     z-index: -1;
 }
+
 
 .advantage .advantage-content {
     display: flex;
