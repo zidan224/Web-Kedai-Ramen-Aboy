@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"mulish", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.navbar.is-active {
+    background: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(3px);
+}
+
+.nav-content {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: auto;
+}
+
+.logo img {
+    height: 32px;
+    object-fit: contain;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 150px;
+}
+
+.nav-links li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Mulish1';
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* About Us bagian atas */
+.about-us {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.About-background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    left: 8px;
+    background-image: url('../img/IMG-20250701-WA0058_1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gradienSamping {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to right, white 20%, transparent);
+}
+
+.About-text{
+    position: relative;
+    z-index: 999;
+    padding-top: 268px; 
+    padding-left: 84px;
+    color: #8B0000;
+}
+
+.About-text h1 {
+    font-family: 'Marcellus';
+    font-size: 40px;
+    position: relative;
+    z-index: 999;
+    color: #991B28;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+
+.About-text p {
+    font-family: "Mulish2";
+    font-size: 20px;
+    position: relative;
+    z-index: 999;
+    color:#991B28;
+    ;
+    line-height: 100%;
+}
+
+/* About Ramen Aboy */
+.about-us-2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.Gambar, .Gambar_Reverse {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 33px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.Gambar_Reverse {
+    flex-direction: row-reverse;
+}
+
+.Gambar img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.penjelasan {
+    max-width: 600px;
+    flex: 1;
+}
+
+.penjelasan h2 {
+    font-family: 'Marcellus';
+    font-size: 40px;
+    color: #991B28;
+    margin-bottom: 20px;
+}
+
+.penjelasan p{
+    font-family:'Mulish2'; 
+}
+
+/* why Ramen Aboy */
+.Why-ramen-aboy {
+    position: relative;
+    padding: 40px 20px;
+}
+
+.Why-ramen-aboy h2 {
+    font-family: 'Marcellus';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #991B28;
+}
+
+/* Container gambar 3 kotak putih sebagai background */
+.tiga-kotak {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Isi tiga kotak */
+.kotak-dan-penjelasan {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+    z-index: 1;
+}
+
+.kotak-dan-penjelasan > div {
+    width: 300px;
+    padding: 24px 20px;
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+.kotak-dan-penjelasan img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.kotak-dan-penjelasan h3 {
+    font-family: 'Mulish3';
+    font-size: 24px;
+    color: #991B28;
+    margin-bottom: 12px;
+}
+
+.kotak-dan-penjelasan p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.kotak-dan-penjelasan span.highlight {
+    color: #991B28;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer-content {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer .pattern-japan {
+    position: absolute;
+    top: -50%;
+    left: -5%;
+    width: 120%;
+    z-index: -1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-content img {
+    width: 230px;
+}
+
+.footer-content .identity-content p {
+    font-size: 14px;
+    color: #484848;
+}
+
+.footer-content .information-content {
+    display: flex;
+    gap: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.information-item {
+    display: flex;
+    gap: 10px;
+}
+
+.information-item img {
+    width: 20px;
+    height: 20px;
+}
+
+.information-item p,
+.information-content li,
+.information-content li a,
+.information-content h3 {
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #484848;
+}
+
+.information-content h3 {
+    font-weight: bold;
+    color: #101A24;
+}
+
+.information-content li {
+    list-style: none;
+}
+
+.information-content li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.footer .copyright {
+    font-family: 'mulish';
+    text-align: center;
+    font-size: 14px;
+    color: #484848;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bottom hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.footer-bottom .copyright {
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  color: #484848;
+}

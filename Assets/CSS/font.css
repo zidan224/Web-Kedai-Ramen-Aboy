@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Marcellus';
+  src: url('../fonts/Marcellus-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish1';
+  src: url('../fonts/Mulish-Medium.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Mulish2';
+    src: url('../fonts/Mulish-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Mulish3';
+    src: url('../fonts/Mulish-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
